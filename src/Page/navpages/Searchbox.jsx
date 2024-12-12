@@ -51,6 +51,7 @@ const SearchBox = () => {
   // Handle product click to navigate to the detail page
   const handleProductClick = (productId) => {
     navigate(`/product/${productId}`); // Navigate to product detail page
+    setSearchQuery("");
   };
 
   return (
