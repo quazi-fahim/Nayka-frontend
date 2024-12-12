@@ -1,7 +1,8 @@
 import React from 'react'
 
 import Firstslider from '../pageComponent/Firstslider'
-import Secondslider from '../pageComponent/secondslider'
+import Slidero from '../pageComponent/Slidero';
+
 
 
 
@@ -14,7 +15,7 @@ const Home = () => {
   return (
     <div>
     
-      <Secondslider/>
+      <Slidero/>
       <Firstslider />
    
     </div>

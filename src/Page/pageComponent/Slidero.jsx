@@ -5,7 +5,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // import arrow icon
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Secondslider = () => {
+const Slidero = () => {
   // Create a reference for the slider
   const sliderRef = useRef(null);
 
@@ -104,4 +104,4 @@ const Secondslider = () => {
   );
 };
 
-export default Secondslider;
+export default Slidero;
