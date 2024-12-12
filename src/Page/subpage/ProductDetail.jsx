@@ -12,7 +12,7 @@ const ProductDetail = () => {
   useEffect(() => {
     const fetchProductDetails = async () => {
       try {
-        const response = await axios.get(`/api/products/${id}`);
+        const response = await axios.get(`https://nayka-backend-l0iw.onrender.com/products/${id}`);
         setProduct(response.data.product);
         setLoading(false);
       } catch (error) {
